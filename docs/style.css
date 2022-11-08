@@ -1,0 +1,77 @@
+/* Ethan Bao
+CPSC 332
+Dr. Olivares
+HW5
+11/07/2022 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    background-color: aqua;
+}
+
+.options-container {
+    border: 2px dashed red;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+
+.btn {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#pauseButton {
+    grid-column: 1 / span 2;
+}
+
+#reloadButton {
+    grid-column: 1 / span 2;
+}
+
+.slider {
+    width: 100%;
+}
+
+.startMenu {
+    border: 2px solid;
+    display: grid;
+    background-color: blue;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    z-index: 3;
+}
+
+#startButton {
+    padding: 10px;
+    grid-row: 2;
+    font-size: 20px;
+    background-color: red;
+}
+
+.message {
+    margin: 0 auto;
+    z-index: 3;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
